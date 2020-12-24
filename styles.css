@@ -140,11 +140,20 @@ main {
 }
 
 .answers {
+    font-family: Royale, sans-serif;
     position: absolute;
-    left: 1183px;
-    top: 2343px;
-    width: 533px;
-    height: 492px;
+    top: 230%;
+    left: 55%;
+    /*width: 100%;*/
+    height: auto;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 84px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 .container img {
@@ -173,9 +182,9 @@ button .arrow {
 
 #right-btn {
     position: absolute;
-    top: 255px;
-    right: -35px;
-    margin: auto 0 auto -2em;
+    top: 300px;
+    right: 125px;
+   margin: auto 0 auto -2em;
 }
 
 #right-btn .arrow {
@@ -184,8 +193,8 @@ button .arrow {
 
 #left-btn {
     position: absolute;
-    top: 255px;
-    left: -35px;
+    top: 300px;
+    left: 125px;
     z-index: 0;
     margin: auto -2em auto 0;
 }
