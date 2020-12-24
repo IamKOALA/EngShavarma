@@ -5,10 +5,12 @@
 body, html {
     margin: 0;
     width: 100%;
+    font-family: Royale, sans-serif;
 }
 #menu {
     display: flex;
     position: fixed;
+    z-index: 1;
     justify-content: space-between;
     height: 7%;
     width: 90%;
@@ -35,7 +37,6 @@ body, html {
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    font-family: Royale, sans-serif;
     font-size: 12px;
     color: #f5f5f5;
     text-decoration: none;
@@ -43,10 +44,30 @@ body, html {
 main {
 
 }
+.description {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 20px;
+}
+h1 {
+    margin: 0;
+}
+pre {
+    margin: 16px 0;
+    font-family: inherit;
+}
 .about {
     height: 100vh;
     background: url("images/about_back.png");
     background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 .about img {
     width: 100%;
@@ -70,8 +91,33 @@ main {
     display: flex;
     justify-content: center;
 }
+.tariff a {
+    margin-top: 22%;
+    width: 15%;
+    position: absolute;
+    background: yellow;
+    border-radius: 2%;
+    text-align: center;
+}
 .tariff img{
     width: 65%;
+}
+.tariff h2{
+    margin-top: 12%;
+    position: absolute;
+    color: yellow;
+    text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
+}
+.tariff a h3 {
+    color: white;
+    text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
+}
+.tariff pre{
+    margin-top: 15%;
+    position: absolute;
+    color: #ffffff;
+    font-size: 17px;
+    text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
 }
 .reviews{
     height: 100vh;
@@ -86,6 +132,7 @@ main {
 }
 
 #popup_container {
+    z-index: 2;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
@@ -110,6 +157,7 @@ main {
 #pop_up_hide {
     display: flex;
     float: right;
+    z-index: 2;
     background-color: transparent;
     border-color: transparent;
     border-radius: 5px;
