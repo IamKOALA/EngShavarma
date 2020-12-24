@@ -1,14 +1,18 @@
 @font-face {
     font-family: Royale;
-    src: url(fonts/clash_royale.ttf); 
+    src: url(fonts/clash_royale.ttf);
 }
+
 body, html {
     margin: 0;
     width: 100%;
+    font-family: Royale, sans-serif;
 }
+
 #menu {
     display: flex;
     position: fixed;
+    z-index: 1;
     justify-content: space-between;
     height: 7%;
     width: 90%;
@@ -40,23 +44,52 @@ body, html {
     color: #f5f5f5;
     text-decoration: none;
 }
+
 main {
 
 }
+
+.description {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 20px;
+    margin-left: 800px;
+}
+
+h1 {
+    margin: 0;
+}
+
+pre {
+    margin: 16px 0;
+    font-family: inherit;
+}
+
 .about {
     height: 100vh;
     background: url("images/about_back.png");
     background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
+
 .about img {
     width: 100%;
     height: 100%;
 }
+
 .prices {
     height: 100vh;
     background: url("images/grass.png");
     background-size: cover;
 }
+
 .prices_list {
     margin: 0;
     padding: 0;
@@ -66,14 +99,46 @@ main {
     justify-content: space-around;
     align-items: center;
 }
+
 .prices_list li {
     display: flex;
     justify-content: center;
 }
-.tariff img{
+
+.tariff img {
     width: 65%;
 }
-.reviews{
+
+.tariff a {
+    margin-top: 22%;
+    width: 15%;
+    position: absolute;
+    background: yellow;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.tariff h2 {
+    margin-top: 12%;
+    position: absolute;
+    color: yellow;
+    text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
+}
+
+.tariff a h3 {
+    color: white;
+    text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
+}
+
+.tariff pre {
+    margin-top: 15%;
+    position: absolute;
+    color: #ffffff;
+    font-size: 17px;
+    text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
+}
+
+.reviews {
     height: 100vh;
     background: url("images/reviews_back.png");
     background-size: cover;
@@ -86,6 +151,7 @@ main {
 }
 
 #popup_container {
+    z-index: 2;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
@@ -98,7 +164,10 @@ main {
 .popup {
     margin: auto;
     position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 300px;
     height: 60px;
     padding: 10px;
@@ -120,7 +189,7 @@ main {
 #pop_up_hide svg {
     width: 20px;
     height: 20px;
-    fill:#1E201D;
+    fill: #1E201D;
 }
 
 #pop_up_hide:hover {
@@ -140,11 +209,20 @@ main {
 }
 
 .answers {
+    /*font-family: Royale, sans-serif;*/
     position: absolute;
-    left: 1183px;
-    top: 2343px;
-    width: 533px;
-    height: 492px;
+    top: 230%;
+    left: 55%;
+    /*width: 100%;*/
+    height: auto;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 84px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 .container img {
@@ -173,8 +251,8 @@ button .arrow {
 
 #right-btn {
     position: absolute;
-    top: 255px;
-    right: -35px;
+    top: 300px;
+    right: 125px;
     margin: auto 0 auto -2em;
 }
 
@@ -184,8 +262,8 @@ button .arrow {
 
 #left-btn {
     position: absolute;
-    top: 255px;
-    left: -35px;
+    top: 300px;
+    left: 125px;
     z-index: 0;
     margin: auto -2em auto 0;
 }
