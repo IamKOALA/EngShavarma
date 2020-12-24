@@ -45,7 +45,7 @@ main {
 }
 .about {
     height: 100vh;
-    background: url("images/clash_royal_background.png");
+    background: url("images/about_back.png");
     background-size: cover;
 }
 .about img {
@@ -62,21 +62,20 @@ main {
     padding: 0;
     height: 100vh;
     display: flex;
+    flex-shrink: 1;
     justify-content: space-around;
     align-items: center;
 }
 .prices_list li {
     display: flex;
-    flex-grow: 0;
-    flex-shrink: 0;
     justify-content: center;
 }
 .tariff img{
-    width: 70%;
+    width: 65%;
 }
-.reviews {
+.reviews{
     height: 100vh;
-    background: url("images/grass.png");
+    background: url("images/reviews_back.png");
     background-size: cover;
 }
 
