@@ -138,3 +138,58 @@ main {
 #pop_up_hide:focus {
     outline: none;
 }
+
+.answers {
+    position: absolute;
+    left: 1183px;
+    top: 2343px;
+    width: 533px;
+    height: 492px;
+}
+
+.container img {
+    width: 100%;
+    z-index: -2;
+}
+
+button {
+    height: 10%;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    padding: 1em;
+    display: flex;
+}
+
+button .arrow {
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+
+#right-btn {
+    position: absolute;
+    top: 255px;
+    right: -35px;
+    margin: auto 0 auto -2em;
+}
+
+#right-btn .arrow {
+    transform: rotate(-45deg);
+}
+
+#left-btn {
+    position: absolute;
+    top: 255px;
+    left: -35px;
+    z-index: 0;
+    margin: auto -2em auto 0;
+}
+
+#left-btn .arrow {
+    transform: rotate(135deg);
+}
