@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Royale;
+    src: url(fonts/clash_royale.ttf); 
+}
+
+#menu {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    height: 7%;
+    width: 90%;
+    background: #272727;
+    left: 0;
+    top: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#leftNavigation {
+    display: flex;
+    height: 100%;
+    width: 30%;
+}
+
+#picture {
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+    /*width: 30%;*/
+    height: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    font-family: Royale, sans-serif;
+    font-size: 12px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.q {
+    height: 10000px;
+}
