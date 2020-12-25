@@ -58,7 +58,7 @@ main {
     justify-content: center;
     color: white;
     margin-right: 20px;
-    margin-left: 800px;
+    margin-left: 900px;
 }
 
 h1 {
@@ -90,8 +90,17 @@ pre {
     background-size: cover;
 }
 
+.info {
+    padding: 23% 0;
+    position: relative;
+    color: white;
+    text-align: center;
+    text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
+}
+
 .prices_list {
     margin: 0;
+    margin-right: 220px;
     padding: 0;
     height: 100vh;
     display: flex;
@@ -105,33 +114,55 @@ pre {
     justify-content: center;
 }
 
-.tariff img {
-    width: 65%;
+.tariff_pic {
+    width: 70%;
 }
 
 .tariff a {
-    margin-top: 22%;
-    width: 15%;
-    position: absolute;
-    background: yellow;
-    border-radius: 2%;
+    /*margin-top: 18%;*/
+    /*width: 15%;*/
+    /*position: absolute;*/
+    /*background: yellow;*/
+    /*border-radius: 2%;*/
+    /*text-align: center;*/
+
+    position: relative;
+    top: 340px;
+    left: 322px;
     text-align: center;
+
+}
+
+.background_price {
+    background-image: url("images/NicePng_clash-royale-png_235200.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.buy_button {
+    position: relative;
+    width: 100%;
 }
 
 .tariff h2 {
-    margin-top: 12%;
+    margin-left: 13%;
+    margin-top: 10%;
     position: absolute;
     color: yellow;
     text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
 }
 
 .tariff a h3 {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     color: white;
     text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
 }
 
 .tariff pre {
-    margin-top: 15%;
+    margin-left: 13%;
+    margin-top: 13%;
     position: absolute;
     color: #ffffff;
     font-size: 17px;
