@@ -3,176 +3,51 @@
     src: url(fonts/clash_royale.ttf);
 }
 
-body, html {
-    margin: 0;
+html {
     width: 100%;
     font-family: Royale, sans-serif;
+    color: whitesmoke;
+    text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
 }
 
-#menu {
+body {
+    margin: 0;
+    position: relative;
+}
+
+header {
     display: flex;
     position: fixed;
-    z-index: 1;
     justify-content: space-between;
     height: 7%;
     width: 90%;
     background: #272727;
     left: 0;
     top: 0;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.headerContainer {
-    display: flex;
-    height: 100%;
-    width: 30%;
-}
-
-#picture {
-    height: 100%;
+    padding: 0 5%;
 }
 
 .menuContainer {
     display: flex;
     height: 100%;
+    width: 30%;
+}
+
+.linkContainer {
+    display: flex;
+    height: 100%;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    font-family: Royale, sans-serif;
-    font-size: 12px;
-    color: #f5f5f5;
+    font-size: 0.8vw;
     text-decoration: none;
+    color: inherit;
+    text-shadow: none;
+    transition: all 0.3s ease;
 }
 
-main {
-
-}
-
-.description {
-    height: 100%;
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin-right: 20px;
-    margin-left: 900px;
-}
-
-h1 {
-    margin: 0;
-}
-
-pre {
-    margin: 16px 0;
-    font-family: inherit;
-}
-
-.about {
-    height: 100vh;
-    background: url("images/about_back.png");
-    background-size: cover;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-
-.about img {
-    width: 100%;
-    height: 100%;
-}
-
-.prices {
-    height: 100vh;
-    background: url("images/grass.png");
-    background-size: cover;
-}
-
-.info {
-    padding: 23% 0;
-    position: relative;
-    color: white;
-    text-align: center;
-    text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
-}
-
-.prices_list {
-    margin: 0;
-    margin-right: 220px;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-shrink: 1;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.prices_list li {
-    display: flex;
-    justify-content: center;
-}
-
-.tariff_pic {
-    width: 70%;
-}
-
-.tariff a {
-    /*margin-top: 18%;*/
-    /*width: 15%;*/
-    /*position: absolute;*/
-    /*background: yellow;*/
-    /*border-radius: 2%;*/
-    /*text-align: center;*/
-
-    position: relative;
-    top: 340px;
-    left: 322px;
-    text-align: center;
-
-}
-
-.background_price {
-    background-image: url("images/NicePng_clash-royale-png_235200.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.buy_button {
-    position: relative;
-    width: 100%;
-}
-
-.tariff h2 {
-    margin-left: 13%;
-    margin-top: 10%;
-    position: absolute;
-    color: yellow;
-    text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
-}
-
-.tariff a h3 {
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    color: white;
-    text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
-}
-
-.tariff pre {
-    margin-left: 13%;
-    margin-top: 13%;
-    position: absolute;
-    color: #ffffff;
-    font-size: 17px;
-    text-shadow: #000 2px 0 2px, #000 0 2px 2px, #000 0 -2px 2px, #000 -2px 0 2px;
-}
-
-.reviews {
-    height: 100vh;
-    background: url("images/reviews_back.png");
-    background-size: cover;
+.linkContainer:hover {
+    background-color: darkgoldenrod;
 }
 
 .logo {
@@ -181,10 +56,175 @@ pre {
     fill: whitesmoke;
 }
 
+#royale {
+    height: 100%;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: url("images/backgrounds/background.png"), url("images/backgrounds/right_dark.png") right top;
+    background-size: cover;
+    background-blend-mode: multiply;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#description {
+    width: 40%;
+    text-shadow: none;
+}
+
+ h1 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+#description p {
+    margin-top: 15vh;
+    line-height: 1.5;
+    text-indent: 5%;
+    font-size: 1.2vw;
+}
+
+#prices {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background: url("images/backgrounds/grass.png");
+    background-size: cover;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    height: 30vw;
+    background: url("images/backgrounds/wood.png ");
+    background-size: cover;
+    border: solid black 0.4vw;
+    padding-bottom: 0.8vw;
+}
+
+.offer p {
+    text-align: center;
+    padding: 0 1.4vw 0 1.4vw;
+    font-size: 0.8vw;
+    line-height: 1.5;
+}
+
+.offer h2 {
+    font-size: 1.2vw;
+    margin: 0;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.icon {
+    width: 8vw;
+    height: auto;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    height: 7vw;
+    width: 15.3vw;
+    background: url("images/button.png");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#reviews {
+    display: flex;
+    height: 93vh;
+    background: url("images/backgrounds/grass.png"), url("images/backgrounds/left_dark.png") right top;
+    background-size: cover;
+    background-blend-mode: multiply;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#reviews p {
+    width: 35%;
+    line-height: 1.5;
+    text-indent: 5%;
+    font-size: 1.2vw;
+}
+
+#answersContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#carousel {
+    width: 25vw;
+    height: auto;
+}
+
+#images button {
+    background: none;
+    border: none;
+    height: 4vw;
+    width: 5vw;
+    transition: all 0.3s ease;
+}
+
+#images button:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+#images button:active {
+    outline: none;
+}
+
+#images button:focus {
+    outline: none;
+}
+
+.Arrow {
+    fill: whitesmoke;
+    height: 3vw;
+    width: 2vw;
+    transform-origin: center;
+}
+
+#leftArrow {
+    transform: rotate(-90deg);
+}
+
+
+#rightArrow {
+    transform: rotate(90deg);
+}
+
 #popup_container {
-    z-index: 2;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
     top: 0;
     left: 0;
@@ -199,10 +239,7 @@ pre {
     left: 0;
     bottom: 0;
     right: 0;
-    width: 300px;
-    height: 60px;
     padding: 10px;
-    background-color: whitesmoke;
     border-radius: 5px;
     box-shadow: 0 0 10px #000;
 }
@@ -239,66 +276,22 @@ pre {
     outline: none;
 }
 
-.answers {
-    /*font-family: Royale, sans-serif;*/
-    position: absolute;
-    top: 230%;
-    left: 55%;
-    /*width: 100%;*/
-    height: auto;
-
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 84px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-.container img {
-    width: 100%;
-    z-index: -2;
-}
-
-button {
-    height: 10%;
-    border: none;
-    outline: none;
-    background: rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    padding: 1em;
+.info {
     display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 40vw;
+    background-image: url("images/backgrounds/wood.png");
+    background-size: cover;
+    border: solid black 0.4vw;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-button .arrow {
-    border: solid #fff;
-    border-width: 0 4px 4px 0;
-    display: inline-block;
-    padding: 10px;
-    transition: transform 0.3s ease-out;
-    outline: none;
-}
-
-#right-btn {
-    position: absolute;
-    top: 300px;
-    right: 125px;
-    margin: auto 0 auto -2em;
-}
-
-#right-btn .arrow {
-    transform: rotate(-45deg);
-}
-
-#left-btn {
-    position: absolute;
-    top: 300px;
-    left: 125px;
-    z-index: 0;
-    margin: auto -2em auto 0;
-}
-
-#left-btn .arrow {
-    transform: rotate(135deg);
+.info p {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    line-height: 1.5;
+    text-indent: 5%;
+    font-size: 1.2vw;
 }

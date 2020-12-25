@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60fb7a26-c6b7-4d72-a5c1-d58879da5bf4" name="Default Changelist" comment="done header">
-      <change afterPath="$PROJECT_DIR$/payment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_19_39__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_19_39__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_20_25__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_20_25__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_21_22__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_21_22__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_23_02__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_23_02__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clash_royal_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/NicePng_clash-royale-png_235200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Pro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Standart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/left_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/reviews_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/right_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wood 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +40,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1m62bxuOejU9KS7FJiVIF6MLL8Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -87,6 +105,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />

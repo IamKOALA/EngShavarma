@@ -1,9 +1,8 @@
 const img = document.getElementById('carousel');
-const rightBtn = document.getElementById('right-btn');
-const leftBtn = document.getElementById('left-btn');
+const rightBtn = document.getElementById('rightButton');
+const leftBtn = document.getElementById('leftButton');
 
 
-console.log(img)
 // Images are from unsplash
 let pictures = ['reviews/answer1.png', "reviews/answer2.png", "reviews/answer3.png"];
 
