@@ -13,6 +13,7 @@ html {
 body {
     margin: 0;
     position: relative;
+    background-color: #272727;
 }
 
 header {
@@ -46,6 +47,19 @@ header {
     transition: all 0.3s ease;
 }
 
+.nameContainer {
+    display: flex;
+    height: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8vw;
+    text-decoration: none;
+    color: inherit;
+    text-shadow: none;
+    transition: all 0.3s ease;
+}
+
 .linkContainer:hover {
     background-color: darkgoldenrod;
 }
@@ -57,14 +71,15 @@ header {
 }
 
 #royale {
-    height: 100%;
+    padding: 5px;
+    height: 80%;
 }
 
 #about {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background: url("images/backgrounds/background.png"), url("images/backgrounds/right_dark.png") right top;
+    background: url("images/backgrounds/background.jpeg"), url("images/backgrounds/right_dark.png") right top;
     background-size: cover;
     background-blend-mode: multiply;
     justify-content: center;
@@ -76,7 +91,7 @@ header {
     text-shadow: none;
 }
 
- h1 {
+h1 {
     text-align: center;
     font-size: 3vw;
 }
@@ -93,7 +108,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     height: 100vh;
-    background: url("images/backgrounds/grass.png");
+    background: url("images/backgrounds/gray_wood.jpeg");
     background-size: cover;
 }
 
@@ -110,10 +125,14 @@ header {
     padding-bottom: 0.8vw;
 }
 
+.offer img {
+    margin-top: 15px;
+}
+
 .offer p {
     text-align: center;
     padding: 0 1.4vw 0 1.4vw;
-    font-size: 0.8vw;
+    font-size: 0.9vw;
     line-height: 1.5;
 }
 
@@ -150,13 +169,17 @@ a {
 #reviews {
     display: flex;
     height: 93vh;
-    background: url("images/backgrounds/grass.png"), url("images/backgrounds/left_dark.png") right top;
+    background: url("images/backgrounds/making_shawarma.jpeg"), url("images/backgrounds/left_dark.png") right top;
     background-size: cover;
     background-blend-mode: multiply;
     justify-content: space-between;
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+#reviews label {
+    font-size: 0.75vw;
 }
 
 #reviews p {
@@ -173,107 +196,16 @@ a {
     align-items: center;
 }
 
-#images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.feed_back_inp {
+    width: 35vw;
 }
 
-
-#carousel {
-    width: 25vw;
-    height: auto;
-}
-
-#images button {
-    background: none;
-    border: none;
-    height: 4vw;
-    width: 5vw;
-    transition: all 0.3s ease;
-}
-
-#images button:hover {
-    transform: scale(1.4);
-    cursor: pointer;
-}
-
-#images button:active {
-    outline: none;
-}
-
-#images button:focus {
-    outline: none;
-}
-
-.Arrow {
-    fill: whitesmoke;
-    height: 3vw;
-    width: 2vw;
-    transform-origin: center;
-}
-
-#leftArrow {
-    transform: rotate(-90deg);
-}
-
-
-#rightArrow {
-    transform: rotate(90deg);
-}
-
-#popup_container {
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.9);
-    position: fixed;
-    top: 0;
-    left: 0;
+input, select, textarea {
     width: 100%;
-    height: 100%;
-}
-
-.popup {
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #000;
-}
-
-#pop_up_hide {
-    display: flex;
-    float: right;
-    background-color: transparent;
-    border-color: transparent;
-    border-radius: 5px;
     padding: 12px;
-
-}
-
-#pop_up_hide svg {
-    width: 20px;
-    height: 20px;
-    fill: #1E201D;
-}
-
-#pop_up_hide:hover {
-    cursor: pointer;
-}
-
-#pop_up_hide:hover svg {
-    fill: whitesmoke;
-}
-
-#pop_up_hide:active {
-    outline: none;
-}
-
-#pop_up_hide:focus {
-    outline: none;
+    border: 1px solid rgb(70, 68, 68);
+    border-radius: 4px;
+    resize: vertical;
 }
 
 .info {
@@ -292,6 +224,5 @@ a {
     margin-left: 10vw;
     margin-right: 10vw;
     line-height: 1.5;
-    text-indent: 5%;
     font-size: 1.2vw;
 }

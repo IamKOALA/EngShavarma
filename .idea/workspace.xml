@@ -2,27 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60fb7a26-c6b7-4d72-a5c1-d58879da5bf4" name="Default Changelist" comment="done header">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_19_39__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_19_39__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_20_25__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_20_25__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_21_22__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_21_22__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_23_02__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_23_02__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/backgrounds/background.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/backgrounds/gray_wood.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/backgrounds/making_shawarma.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pitas.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/shawarma_logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vlavashe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_19_39_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_19_39__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_20_25_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_20_25__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_21_22_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_21_22__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_23_02_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2020_23_02__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Clash_Royale_logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/Medium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/NicePng_clash-royale-png_235200.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/Pro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Standart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about_back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/left_dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/reviews_back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/right_dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/wood 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/royal-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/standard.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/answer1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/answer2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/answer3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standart.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wood.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +80,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images/backgrounds" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,6 +97,8 @@
       <updated>1608799797785</updated>
       <workItem from="1608799799312" duration="12393000" />
       <workItem from="1608815833932" duration="10092000" />
+      <workItem from="1619695587213" duration="1083000" />
+      <workItem from="1620048345447" duration="6169000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1608800115066</created>
