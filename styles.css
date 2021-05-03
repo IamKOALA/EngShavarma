@@ -70,11 +70,6 @@ header {
     fill: whitesmoke;
 }
 
-#royale {
-    padding: 5px;
-    height: 80%;
-}
-
 #about {
     display: flex;
     flex-direction: column;
